@@ -10,7 +10,8 @@ Letter.prototype.outputLetterDisplay = function () {
         return this.character;
         //else display underscore
     } else {
-        console.log("Do not use");
+        //PLEASE DOUBLE CHECK THIS
+        return this.character = "_";
     }
 }
 
