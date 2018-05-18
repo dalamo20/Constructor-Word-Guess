@@ -5,13 +5,13 @@ var Letter = function (character) {
 }
 //red
 //first function outputs letter display
-Letter.prototype.outputLetterDisplay = function () {
+Letter.prototype.toString = function () {
     if (this.guessed === true) {
         return this.character;
         //else display underscore
     } else {
         //PLEASE DOUBLE CHECK THIS
-        return this.character = "_";
+        return "_";
     }
 }
 
